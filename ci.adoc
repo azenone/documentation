@@ -36,7 +36,7 @@ We generally prefer to use the Docker Pipeline plugin for system dependencies in
 
 == Caching mirrors
 
-https://repo.jenkins-ci.org/nodejs-dist/ and https://repo.jenkins-ci.org/npm-dist/ mirror https://nodejs.org/dist/ and http://registry.npmjs.org/npm/-/, respectively, so these may be used from link:https://github.com/eirslett/frontend-maven-plugin/blob/master/README.md#installing-node-and-npm[frontend-maven-plugin], as happens automatically in the plugin parent POM as of 2.29. (There is currently no mirror for https://github.com/yarnpkg/yarn/releases/download/, the yarn distribution site.)
+https://repo.jenkins-ci.org/nodejs-dist/ and https://repo.jenkins-ci.org/npm-dist/ mirror https://nodejs.org/dist/ and http://registry.npmjs.org/npm/-/, respectively, so these may be used from link:https://github.com/eirslett/frontend-maven-plugin/blob/master/README.md#installing-node-and-npm[frontend-maven-plugin], as happens automatically in the plugin parent POM as of 2.29. (There is currently no mirror for https://github.com/yarnpkg/yarn/releases, the yarn distribution site.)
 
 There is also a mirror of the npm package repository; to use it:
 
